@@ -84,7 +84,6 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim){
 }
 
 const int MAX_LED_MATRIX = 8;
-
 uint8_t A_pattern[8] = {
     0x18, 0x24, 0x42, 0x42,
     0x7E, 0x42, 0x42, 0x42
